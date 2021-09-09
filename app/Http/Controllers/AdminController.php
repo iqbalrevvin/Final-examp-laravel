@@ -22,7 +22,7 @@ class AdminController extends Controller
             'password' => bcrypt($request->password),
         ]);
        
-        return redirect('/listadmin');
+      
 
         $data->save();
         return response()->json([

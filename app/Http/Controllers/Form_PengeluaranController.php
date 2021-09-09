@@ -30,7 +30,7 @@ class Form_PengeluaranController extends Controller
             'Nominal' => $request->input('Nominal'),
             'created_at' => $request->input('created_at')
         ]);
-        return redirect('/tbl_pengeluaran');
+       
         
         $data->save();
         return response()->json([

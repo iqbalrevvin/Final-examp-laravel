@@ -13,7 +13,7 @@ class OwnerController extends Controller
     public function listadmin(){
         $useradmin = user::paginate(2);
         return view('pages/RegistAdmin/listadmin',compact('useradmin'));
-        return response()->json( $useradmin,200);
+        
     }
     public function listadminApi(){
         $useradmin = user::paginate(2);

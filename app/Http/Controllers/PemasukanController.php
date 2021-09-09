@@ -142,8 +142,6 @@ class PemasukanController extends Controller
    
         return view('pages/chart',['chartpemasukan' => $chartpemasukan,'data'=>$data ]);
     
-      return response()->json([
-        'pemasukan' =>  $chartpemasukan
-    ]);
+      
     }
 }

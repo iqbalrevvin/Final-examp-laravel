@@ -22,7 +22,7 @@ class AuthController extends Controller
             }
             return redirect()->intended('/');
     }
-    return redirect('/');
+  
     }
 
     public function logout(Request $request){
