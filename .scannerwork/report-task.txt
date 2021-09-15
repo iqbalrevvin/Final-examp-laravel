@@ -1,6 +1,6 @@
-projectKey=testlaravel
+projectKey=testlaravel2
 serverUrl=http://localhost:9000
 serverVersion=9.0.1.46107
-dashboardUrl=http://localhost:9000/dashboard?id=testlaravel
-ceTaskId=AXvlGy7qFji-RbKqNFJ0
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXvlGy7qFji-RbKqNFJ0
+dashboardUrl=http://localhost:9000/dashboard?id=testlaravel2
+ceTaskId=AXvlQO8HLdB62kzjjLb3
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXvlQO8HLdB62kzjjLb3
