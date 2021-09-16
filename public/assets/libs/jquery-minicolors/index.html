@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <title>jQuery MiniColors</title>
   <meta charset="utf-8">
@@ -19,47 +20,57 @@
     dl {
       margin: 20px 0;
     }
+
     dt {
       font-size: 120%;
     }
+
     dd {
       padding: 10px 20px 20px 20px;
     }
+
     dd:last-child {
       border-bottom: none;
     }
+
     code {
       color: black;
       border: none;
       background: rgba(128, 128, 128, .1);
     }
+
     pre {
       background: #f8f8f8;
       border: none;
       color: #333;
       padding: 20px;
     }
+
     h2 {
       margin-top: 50px;
     }
+
     h3 {
       color: #aaa;
     }
+
     .jumbotron {
       padding: 40px;
     }
+
     .jumbotron h1 {
       margin-top: 0;
     }
+
     .jumbotron p:last-child {
       margin-bottom: 0;
     }
   </style>
 
   <script>
-    $(document).ready( function() {
+    $(document).ready(function () {
 
-      $('.demo').each( function() {
+      $('.demo').each(function () {
         //
         // Dear reader, it's actually very easy to initialize MiniColors. For example:
         //
@@ -79,10 +90,10 @@
           opacity: $(this).attr('data-opacity'),
           position: $(this).attr('data-position') || 'bottom left',
           swatches: $(this).attr('data-swatches') ? $(this).attr('data-swatches').split('|') : [],
-          change: function(value, opacity) {
-            if( !value ) return;
-            if( opacity ) value += ', ' + opacity;
-            if( typeof console === 'object' ) {
+          change: function (value, opacity) {
+            if (!value) return;
+            if (opacity) value += ', ' + opacity;
+            if (typeof console === 'object') {
               console.log(value);
             }
           },
@@ -94,6 +105,7 @@
     });
   </script>
 </head>
+
 <body>
   <div class="row" style="margin: 40px 40px;">
     <div class="col-12">
@@ -158,14 +170,16 @@
             </div>
             <div class="form-group">
               <label for="saturation-demo">Saturation</label>
-              <input type="text" id="saturation-demo" class="form-control demo" data-control="saturation" value="#0088cc">
+              <input type="text" id="saturation-demo" class="form-control demo" data-control="saturation"
+                value="#0088cc">
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-4 col-12">
             <div class="form-group">
               <label for="brightness-demo">Brightness</label>
-              <input type="text" id="brightness-demo" class="form-control demo" data-control="brightness" value="#00ffff">
+              <input type="text" id="brightness-demo" class="form-control demo" data-control="brightness"
+                value="#00ffff">
             </div>
             <div class="form-group">
               <label for="wheel-demo">Wheel</label>
@@ -212,21 +226,25 @@
           <div class="col-lg-4 col-sm-4 col-12">
             <div class="form-group">
               <label for="position-bottom-left">bottom left (default)</label>
-              <input type="text" id="position-bottom-left" class="form-control demo" data-position="bottom left" value="#0088cc">
+              <input type="text" id="position-bottom-left" class="form-control demo" data-position="bottom left"
+                value="#0088cc">
             </div>
             <div class="form-group">
               <label for="position-top-left">top left</label>
-              <input type="text" id="position-top-left" class="form-control demo" data-position="top left" value="#0088cc">
+              <input type="text" id="position-top-left" class="form-control demo" data-position="top left"
+                value="#0088cc">
             </div>
           </div>
           <div class="col-lg-4 col-sm-4 col-12">
             <div class="form-group">
               <label for="position-bottom-right">bottom right</label>
-              <input type="text" id="position-bottom-right" class="form-control demo" data-position="bottom right" value="#0088cc">
+              <input type="text" id="position-bottom-right" class="form-control demo" data-position="bottom right"
+                value="#0088cc">
             </div>
             <div class="form-group">
               <label for="position-top-right">top right</label>
-              <input type="text" id="position-top-right" class="form-control demo" data-position="top right" value="#0088cc">
+              <input type="text" id="position-top-right" class="form-control demo" data-position="top right"
+                value="#0088cc">
             </div>
           </div>
           <div class="col-lg-4 col-sm-4 col-12">
@@ -253,7 +271,8 @@
             <div class="form-group">
               <label for="rgba">RGBA</label>
               <br>
-              <input type="text" id="rgba" class="form-control demo" data-format="rgb" data-opacity=".5" value="rgba(52, 64, 158, 0.5)">
+              <input type="text" id="rgba" class="form-control demo" data-format="rgb" data-opacity=".5"
+                value="rgba(52, 64, 158, 0.5)">
               <span class="help-block">
                 RGBA input can be assigned by setting the <code>format</code>
                 option to <code>rgb</code> and <code>opacity</code> option to
@@ -284,7 +303,8 @@
             <div class="form-group">
               <label for="keywords">Keywords</label>
               <br>
-              <input type="text" id="keywords" class="form-control demo" data-keywords="transparent, initial, inherit" value="transparent">
+              <input type="text" id="keywords" class="form-control demo" data-keywords="transparent, initial, inherit"
+                value="transparent">
               <span class="help-block">
                 CSS-wide keywords can be assigned by setting the <code>keywords</code>
                 option to a comma-separated list of valid keywords: <code>transparent,
@@ -320,7 +340,7 @@
             <div class="form-group">
               <label for="input-group">Input Groups</label>
               <div class="input-group">
-                <input type="text" id="input-group" class="form-control demo" value="#ff0000"/>
+                <input type="text" id="input-group" class="form-control demo" value="#ff0000" />
                 <span class="input-group-btn">
                   <button class="btn btn-default" type="button">Button</button>
                 </span>
@@ -335,7 +355,7 @@
               <label for="more-input-group">More Input Groups</label>
               <div class="input-group">
                 <span class="input-group-addon">Color</span>
-                <input type="text" id="more-input-group" class="form-control demo" value="#ff0000"/>
+                <input type="text" id="more-input-group" class="form-control demo" value="#ff0000" />
                 <span class="input-group-btn">
                   <button class="btn btn-default" type="button">Button</button>
                 </span>
@@ -351,7 +371,9 @@
             <div class="form-group">
               <label for="letter-case">Swatches</label>
               <br>
-              <input type="text" id="swatches" class="form-control demo" data-swatches="#ef9a9a|#90caf9|#a5d6a7|#fff59d|#ffcc80|#bcaaa4|#eeeeee|#f44336|#2196f3|#4caf50|#ffeb3b|#ff9800|#795548|#9e9e9e" value="#abcdef">
+              <input type="text" id="swatches" class="form-control demo"
+                data-swatches="#ef9a9a|#90caf9|#a5d6a7|#fff59d|#ffcc80|#bcaaa4|#eeeeee|#f44336|#2196f3|#4caf50|#ffeb3b|#ff9800|#795548|#9e9e9e"
+                value="#abcdef">
               <span class="help-block">
                 Example with swatches.
               </span>
@@ -361,7 +383,8 @@
             <div class="form-group">
               <label for="letter-case">Swatches and opacity</label>
               <br>
-              <input type="text" id="swatches" class="form-control demo" data-format="rgb" data-opacity="1" data-swatches="#fff|#000|#f00|#0f0|#00f|#ff0|rgba(0,0,255,0.5)"  value="rgba(14, 206, 235, .5)">
+              <input type="text" id="swatches" class="form-control demo" data-format="rgb" data-opacity="1"
+                data-swatches="#fff|#000|#f00|#0f0|#00f|#ff0|rgba(0,0,255,0.5)" value="rgba(14, 206, 235, .5)">
               <span class="help-block">
                 Example with swatches and opacity.
               </span>
@@ -386,7 +409,7 @@
       <p>
         Default settings are as follows:
       </p>
-<pre>
+      <pre>
 $.minicolors = {
   defaults: {
     animationSpeed: 50,
@@ -413,13 +436,13 @@ $.minicolors = {
       <p>
         For convenience, you can change default settings globally by assigning new values:
       </p>
-<pre>
+      <pre>
 $.minicolors.defaults.changeDelay = 200;
 </pre>
       <p>
         To change multiple properties at once, use <code>$.extend()</code>:
       </p>
-<pre>
+      <pre>
 $.minicolors.defaults = $.extend($.minicolors.defaults, {
   changeDelay: 200,
   letterCase: 'uppercase',
@@ -541,7 +564,7 @@ $.minicolors.defaults = $.extend($.minicolors.defaults, {
             A string containing the name of the custom theme to be applied. In your CSS, prefix
             your selectors like this:
           </p>
-<pre>
+          <pre>
 .minicolors-theme-yourThemeName { ... }
 </pre>
           <p>
@@ -553,7 +576,7 @@ $.minicolors.defaults = $.extend($.minicolors.defaults, {
           <p>
             To adjust the swatch, override these styles:
           </p>
-<pre>
+          <pre>
 .minicolors-theme-default .minicolors-swatch {
   top: 5px;
   left: 5px;
@@ -565,152 +588,154 @@ $.minicolors.defaults = $.extend($.minicolors.defaults, {
   right: 5px;
 }
 </pre>
-          </div>
-        </dd>
+    </div>
+    </dd>
 
-        <dt>swatches</dt>
-        <dd>
-          <p>
-            An array containing some colors, in either rgb(a) or hex format, that will
-            show up under the main color grid.
-          </p>
-        </dd>
-      </dl>
+    <dt>swatches</dt>
+    <dd>
+      <p>
+        An array containing some colors, in either rgb(a) or hex format, that will
+        show up under the main color grid.
+      </p>
+    </dd>
+    </dl>
 
-      <!-- Methods -->
-      <h3 id="methods">Methods</h3>
-      <p>Use this syntax for calling methods:</p>
-      <pre>$(<em>selector</em>).minicolors('method', <em>[data]</em>);</pre>
-      <dl>
-        <dt>create</dt>
-        <dd>
-          <p>
-            Initializes the control for all items matching your selector. This is the default
-            method, so <code>data</code> may be passed in as the only argument.
-          </p>
-          <p>
-            To set a preset color value, populate the <code>value</code> attribute of the original
-            input element.
-          </p>
-        </dd>
+    <!-- Methods -->
+    <h3 id="methods">Methods</h3>
+    <p>Use this syntax for calling methods:</p>
+    <pre>$(<em>selector</em>).minicolors('method', <em>[data]</em>);</pre>
+    <dl>
+      <dt>create</dt>
+      <dd>
+        <p>
+          Initializes the control for all items matching your selector. This is the default
+          method, so <code>data</code> may be passed in as the only argument.
+        </p>
+        <p>
+          To set a preset color value, populate the <code>value</code> attribute of the original
+          input element.
+        </p>
+      </dd>
 
-        <dt>destroy</dt>
-        <dd>
-          <p>
-            Returns the <em>input</em> element to its original, uninitialized state.
-          </p>
-        </dd>
+      <dt>destroy</dt>
+      <dd>
+        <p>
+          Returns the <em>input</em> element to its original, uninitialized state.
+        </p>
+      </dd>
 
-        <dt>opacity</dt>
-        <dd>
-          <p>
-            Gets or sets a control's opacity level. To use this method as a setter, pass data in
-            as a value between 0 and 1. (You can also obtain this value by checking the input
-            element's <code>data-opacity</code> attribute.)
-          </p>
-          <p>
-            To set a preset opacity value, populate the <code>data-opacity</code> attribute of the
-            original input element.
-          </p>
-        </dd>
+      <dt>opacity</dt>
+      <dd>
+        <p>
+          Gets or sets a control's opacity level. To use this method as a setter, pass data in
+          as a value between 0 and 1. (You can also obtain this value by checking the input
+          element's <code>data-opacity</code> attribute.)
+        </p>
+        <p>
+          To set a preset opacity value, populate the <code>data-opacity</code> attribute of the
+          original input element.
+        </p>
+      </dd>
 
-        <dt>rgbObject</dt>
-        <dd>
-          <p>
-            Returns an object containing red, green, blue, and alpha properties that correspond to
-            the control's current value. Example:
-          </p>
-          <pre>{ r: 0, g: 82, b: 148, a: 0.75 }</pre>
-        </dd>
+      <dt>rgbObject</dt>
+      <dd>
+        <p>
+          Returns an object containing red, green, blue, and alpha properties that correspond to
+          the control's current value. Example:
+        </p>
+        <pre>{ r: 0, g: 82, b: 148, a: 0.75 }</pre>
+      </dd>
 
-        <dt>rgbString &amp; rgbaString</dt>
-        <dd>
-          <p>
-            Returns an RGB or RGBA string suitable for use in your CSS. Examples:
-          </p>
-<pre>
+      <dt>rgbString &amp; rgbaString</dt>
+      <dd>
+        <p>
+          Returns an RGB or RGBA string suitable for use in your CSS. Examples:
+        </p>
+        <pre>
 rgb(0, 82, 148)
 rgba(0, 82, 148, .75)
 </pre>
-        </dd>
+      </dd>
 
-        <dt>settings</dt>
-        <dd>
-          <p>
-            Gets or sets a control's settings. If new settings are passed in, the control will
-            destroy and re-initialize itself with any new settings overriding the old ones.
-          </p>
-        </dd>
+      <dt>settings</dt>
+      <dd>
+        <p>
+          Gets or sets a control's settings. If new settings are passed in, the control will
+          destroy and re-initialize itself with any new settings overriding the old ones.
+        </p>
+      </dd>
 
-        <dt>value</dt>
-        <dd>
-          <p>
-            Gets or sets a control's color value. To use this method as a setter, pass
-            in a color string or an object (ex: <code>{color: '#fc0', opacity: .5}</code>).
-          </p>
-        </dd>
-      </dl>
+      <dt>value</dt>
+      <dd>
+        <p>
+          Gets or sets a control's color value. To use this method as a setter, pass
+          in a color string or an object (ex: <code>{color: '#fc0', opacity: .5}</code>).
+        </p>
+      </dd>
+    </dl>
 
-      <!-- Events -->
-      <h3 id="events">Events</h3>
-      <dl>
-        <dt>change</dt>
-        <dd>
-          <p>Fires when the value of the color picker changes. The <code>this</code> keyword will reference the original input element.
-<pre>
+    <!-- Events -->
+    <h3 id="events">Events</h3>
+    <dl>
+      <dt>change</dt>
+      <dd>
+        <p>Fires when the value of the color picker changes. The <code>this</code> keyword will reference the original
+          input element.
+        <pre>
 $(<em>selector</em>).minicolors({
   change: function(value, opacity) {
     console.log(value + ' - ' + opacity);
   }
 });
 </pre>
-          <p class="alert alert-warning">
-            <strong>Warning!</strong> This event will fire a lot when the user drags the
-            color picker around. Use the <code>changeDelay</code> setting to reduce its
-            frequency.
-          </p>
-        </dd>
+        <p class="alert alert-warning">
+          <strong>Warning!</strong> This event will fire a lot when the user drags the
+          color picker around. Use the <code>changeDelay</code> setting to reduce its
+          frequency.
+        </p>
+      </dd>
 
-        <dt>hide</dt>
-        <dd>
-          <p>
-            Fires when the color picker is hidden. The <code>this</code> keyword will reference
-            the original input element.
-          </p>
-<pre>
+      <dt>hide</dt>
+      <dd>
+        <p>
+          Fires when the color picker is hidden. The <code>this</code> keyword will reference
+          the original input element.
+        </p>
+        <pre>
 $(<em>selector</em>).minicolors({
   hide: function() {
   console.log('Hide event triggered!');
   }
 });
 </pre>
-        </dd>
+      </dd>
 
-        <dt>show</dt>
-        <dd>
-          <p>
-            Fires when the color picker is shown. The <code>this</code> keyword will reference
-            the original input element.
-          </p>
-<pre>
+      <dt>show</dt>
+      <dd>
+        <p>
+          Fires when the color picker is shown. The <code>this</code> keyword will reference
+          the original input element.
+        </p>
+        <pre>
 $(<em>selector</em>).minicolors({
   show: function() {
     console.log('Show event triggered!');
   }
 });
 </pre>
-        </dd>
-      </dl>
+      </dd>
+    </dl>
 
-      <h2 id="license">License</h2>
-      <p>
-        Licensed under the <a href="http://opensource.org/licenses/MIT">MIT license</a>,
-        same as <a href="https://jquery.org/license/">jQuery</a>.
-      </p>
-      <p>
-        &copy;2013 <a href="http://www.abeautifulsite.net/">A Beautiful Site, LLC.</a>
-      </p>
-    </div>
+    <h2 id="license">License</h2>
+    <p>
+      Licensed under the <a href="http://opensource.org/licenses/MIT">MIT license</a>,
+      same as <a href="https://jquery.org/license/">jQuery</a>.
+    </p>
+    <p>
+      &copy;2013 <a href="http://www.abeautifulsite.net/">A Beautiful Site, LLC.</a>
+    </p>
+  </div>
   </div>
 </body>
+
 </html>
