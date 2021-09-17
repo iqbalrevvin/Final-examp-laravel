@@ -26,10 +26,7 @@ class Verify_login
         if ($user->level == $role) {
             return $next($request);
         }
-        // if (in_array($request->user()->level,$role)) {
-        //     return $next($request);
-        // }
-        
-        return redirect('/')->with('error',"Anda tidak memiliki akses..");
+
+        return redirect('/')->with('error', "Anda tidak memiliki akses..");
     }
 }

@@ -29,9 +29,9 @@ class auth extends Seeder
                 'level'    => 'owner',
                 'password' => bcrypt('owner111')
             ]
-                ];
-                foreach($user as $key => $value){
-                    user::create($value);
-                }
+        ];
+        foreach ($user as $value) {
+            user::create($value);
+        }
     }
 }
