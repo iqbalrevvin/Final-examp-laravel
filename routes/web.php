@@ -52,7 +52,6 @@ Route::get('/chartpengeluaran',[PengeluaranController::class,'chartpengeluaran']
 // Route::group(['middleware' => ['auth','Verify_login:owner']], function(){
 //     Route::get('/home',[HomeController::class, 'homepage'])->name('home');
 
-// });
 
 //auth->admin || owner
 
