@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Database\Seeders\DatabaseSeeder;
-class pemasukan extends Seeder
+class Pemasukan extends Seeder
 {
     /**
      * Run the database seeds.

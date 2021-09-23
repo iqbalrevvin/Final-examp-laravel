@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\OrderList;
+
 class OrderlistSeeder extends Seeder
 {
     /**
@@ -21,7 +22,7 @@ class OrderlistSeeder extends Seeder
 
             ],
         ];
-        foreach($orderlist as $key => $value){
+        foreach ($orderlist as $value) {
             OrderList::create($value);
         }
     }

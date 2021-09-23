@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\User;
 
-class auth extends Seeder
+class Auth extends Seeder
 {
     /**
      * Run the database seeds.
@@ -29,9 +29,9 @@ class auth extends Seeder
                 'level'    => 'owner',
                 'password' => bcrypt('owner111')
             ]
-                ];
-                foreach($user as $key => $value){
-                    user::create($value);
-                }
+        ];
+        foreach ($user as $value) {
+            user::create($value);
+        }
     }
 }
