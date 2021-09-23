@@ -12,7 +12,7 @@ class ProductsControler extends Controller
         $products = new products();
         $products->name = $request->name;
         $products->price = $request->price;
-        $products->quantity = $request->quantity;
+        $products->image = $request->image;
         $products->aktive = $request->aktive;
         $products->descripsi = $request->descripsi;
 
