@@ -26,7 +26,9 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/master', function () {
     return view('layouts/master');
 });
-
+Route::get('/order', function () {
+    return view('ordering.app');
+});
 
 
 Route::get('/',[AuthController::class, 'login'])->name('login');
