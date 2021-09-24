@@ -29,6 +29,12 @@ Route::get('/master', function () {
 Route::get('/order', function () {
     return view('ordering.app');
 });
+Route::get('/cart', function () {
+    return view('ordering.cart');
+});
+Route::get('/products', function () {
+    return view('ordering.products');
+});
 
 
 Route::get('/',[AuthController::class, 'login'])->name('login');
