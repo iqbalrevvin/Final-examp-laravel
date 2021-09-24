@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        @include('ordering.header')
-    </head>
-<body>
-    @include('ordering.navbar')
-<!-- Header part  -->
-
-
+@extends('ordering.app')
+@section('product_single')
 <div class="content-area prodcuts">
 
     <div class="container">
@@ -173,9 +165,6 @@
 </div> <!-- End content Area class -->
 
 
-@include('ordering.footer')<!-- End wrapper -->
-
-
 
 <script src="{{ asset('orderingtemplate/js/jquery.flexslider.js') }}" type="text/javascript"></script>
 <script>
@@ -188,5 +177,4 @@
 </script>
 <!--flex slider-->
 <script src="{{ asset('orderingtemplate/js/imagezoom.js') }}" type="text/javascript"></script>
-</body>
-</html>
+@endsection

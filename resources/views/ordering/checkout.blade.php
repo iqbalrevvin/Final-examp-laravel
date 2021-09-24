@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        @include('ordering.header')
-    </head>
-<body>
-    @include('ordering.navbar')
-<!-- Header part  -->
-
-
+@extends('ordering.app')
+@section('checkout')
 <div class="content-area">
     <div class="container">
         <div class="checkout-page">
@@ -331,5 +323,4 @@
             });
 
         </script>
-    </body>
-    </html>
+@endsection

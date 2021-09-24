@@ -6,12 +6,9 @@
 <body>
   @include('ordering.navbar')
 <!-- Header part  -->
-@yield('carousel') <!-- End Main slider class -->
-@yield('cart')
-@yield('produk')
-@yield('checkout')
-@yield('product_single')
-@yield('products') <!-- End Latest products -->
+@include('ordering.carousel') <!-- End Main slider class -->
+
+@yield('produk') <!-- End Latest products -->
 </div> <!-- End content Area class -->
 @include('ordering.footer')
 </body>

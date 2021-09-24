@@ -27,7 +27,7 @@ Route::get('/master', function () {
     return view('layouts/master');
 });
 Route::get('/order', function () {
-    return view('ordering.app');
+    return view('ordering.order');
 });
 Route::get('/cart', function () {
     return view('ordering.cart');
@@ -40,6 +40,9 @@ Route::get('/checkout', function () {
 });
 Route::get('/product_single', function () {
     return view('ordering.product_single');
+});
+Route::get('/awal', function () {
+    return view('ordering.barang');
 });
 
 

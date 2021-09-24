@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    @include('ordering.header')
-</head>
-<body>
-  @include('ordering.navbar')
-    
-<!-- Header part  -->
-
-
+@extends('ordering.app')
+@section('cart')
 <div class="content-area">
     <div class="container">
         <div class="cart-page">
@@ -112,7 +103,5 @@
         </div> <!-- End Container inside Content Area -->
     </div> <!-- End content Area class -->
 
+@endsection
 
-    @include('ordering.footer')
-</body>
-</html>

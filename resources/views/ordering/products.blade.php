@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        @include('ordering.header')
-    </head>
-<body>
-    @include('ordering.navbar')
-<!-- Header part  -->
-
-
+@extends('ordering.app')
+@section('products')
 <div class="content-area prodcuts">
 
     <div class="row">
@@ -688,8 +680,4 @@
     </div> <!-- End Service -->
 
 </div> <!-- End content Area class -->
-
-
-@include('ordering.footer')
-</body>
-</html>
+@endsection
