@@ -12,15 +12,15 @@
 <div class="content-area">
     <div class="container">
         <div class="cart-page">
-            <h2>Cart</h2>
+            <h2>Keranjang</h2>
             <form action="checkout.html">
                 <table class="table">
                     <thead>
                         <tr>
                             <th width="50%">Item</th>
-                            <th width="10%">Quantity</th>
-                            <th width="20%">Unit Price</th>
-                            <th width="20%">Total Price</th>
+                            <th width="10%">Jumlah</th>
+                            <th width="20%">Harga Satuan</th>
+                            <th width="20%">Total Harga</th>
                         </tr>
                     </thead>
 
@@ -73,9 +73,9 @@
                         </tr>
                         <tr>
                             <td colspan="4">
-                                <a href="{{ ('checkout') }}" class="btn btn-yellow btn-lg pull-right margin-bottom-20" > Continue to Check Out </a>
+                                <a href="{{ ('checkout') }}" class="btn btn-yellow btn-lg pull-right margin-bottom-20" > Lanjutkan Pembayaran </a>
                                 <a href="{{ ('products') }}" class="btn btn-success btn-lg pull-right margin-right-20">
-                                    <i class="fa fa-plus"></i> Add More Products</a>
+                                    <i class="fa fa-plus"></i> Tambah Produk Lain</a>
 
                                     <div class="clearfix"></div>
                                 </td>

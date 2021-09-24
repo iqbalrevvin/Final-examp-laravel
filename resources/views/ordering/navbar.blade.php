@@ -102,7 +102,7 @@
           <!-- <div class="smllogo"><a href="#"><img src="images/logo.jpg" alt=""></a></div> -->
           <nav class="wsmenu clearfix">
             <ul class="mobile-sub wsmenu-list">
-              <li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span>Shop By</span> <span>Department</span></a>
+              <li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span><b>Menu</b><br/>Ikan</span></a>
                 <div class="wsshoptabing wtsdepartmentmenu clearfix">
                   <div class="wsshopwp clearfix" style="height: 421px;">
                       <ul class="wstabitem clearfix">
@@ -462,7 +462,7 @@
 </div>
 </div>
 </li>
-<li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span>Shop By</span> <span>Brand</span></a>
+<li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span><b>Menu</b><br/>Daging</span></a>
 <div class="wsshoptabing wtsbrandmenu clearfix">
   <div class="wsshoptabingwp clearfix">
     <ul class="wstabitem02 clearfix">
@@ -791,7 +791,7 @@
 </div>
 </li>
 
-<li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span>Shop By</span> <span>MegaMenu</span></a>
+<li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span><b>Menu</b><br/>Puding</span></a>
 <div class="megamenu clearfix">
 
 
@@ -837,7 +837,7 @@
 </li>
 
 
-<li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span>Shop By</span> <span>Half menu</span></a>
+<li><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="navtext"><span><b>Menu</b> <br/> Minum / Jus</span></a>
 <div class="megamenu clearfix halfmenu">
 
 
@@ -866,7 +866,7 @@
 </div>
 </li>
 
-<li class="wsshopmyaccount clearfix"><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="wtxaccountlink"><i class="fa fa-align-justify"></i>My Account <i class="fa  fa-angle-down"></i></a>
+<li class="wsshopmyaccount clearfix"><span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span><a href="#" class="wtxaccountlink"><i class="fa fa-align-justify"></i>Akun Saya <i class="fa  fa-angle-down"></i></a>
 <ul class="wsmenu-submenu">
   <li><a href="account.html"><i class="fa fa-user"></i>View Profile</a></li>
   <li><a href="register.html"><i class="fa fa-black-tie"></i>Sign Up</a></li>
