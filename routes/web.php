@@ -35,6 +35,12 @@ Route::get('/cart', function () {
 Route::get('/products', function () {
     return view('ordering.products');
 });
+Route::get('/checkout', function () {
+    return view('ordering.checkout');
+});
+Route::get('/product_single', function () {
+    return view('ordering.product_single');
+});
 
 
 Route::get('/',[AuthController::class, 'login'])->name('login');

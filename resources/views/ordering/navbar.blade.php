@@ -6,7 +6,7 @@
             <div class="header-bottom">
                 <div class="container">
                     <div class="header-logo pull-left">
-                        <a href="index.html">
+                        <a href="{{ ('order') }}">
                             <img src="{{ asset('templateordering/images/logo.png') }}" alt="Your Shop Logo" class="img img-responsive">
                         </a>
                     </div>
@@ -21,7 +21,7 @@
                     </div>
     
                     <div class="header-cart">
-                        <a href="cart.html" class="cart-link" data-toggle="modal" data-target="#cart-item"><i class="fa fa-cart-arrow-down"></i></a>
+                        <a href="{{ ('cart') }}" class="cart-link" data-toggle="modal" data-target="#cart-item"><i class="fa fa-cart-arrow-down"></i></a>
                         <span class="number-of-cart">20</span>
                     </div>
     
@@ -182,28 +182,7 @@
             <li><a href="#">Sport Coats <span class="wstmenutag bluetag">Trending</span></a></li>
         </ul>
         <div class="cl" style="height:8px;"></div>
-        <div class="wstheading">Shoes &amp; Wallets</div>
-        <ul class="wstliststy01">
-            <li><a href="#">Athletic</a> </li>
-            <li><a href="#">Boots</a> <span class="wstmenutag orangetag">Exclusive</span></li>
-            <li><a href="#">Fashion Sneakers</a> </li>
-            <li><a href="#">Loafers &amp; Slip-Ons</a> </li>
-            <li><a href="#">Mules &amp; Clogs</a> </li>
-            <li><a href="#">Outdoor</a> </li>
-            <li><a href="#">Oxfords</a> </li>
-            <li><a href="#">Sandals</a> </li>
-            <li><a href="#">Slippers</a> </li>
-        </ul>
-        <div class="cl" style="height:8px;"></div>
-        <div class="wstheading">Accessories</div>
-        <ul class="wstliststy01">
-            <li><a href="#">Belts</a> </li>
-            <li><a href="#">Suspenders</a> </li>
-            <li><a href="#">Eyewear Accessories</a> </li>
-            <li><a href="#">Neckties</a> </li>
-            <li><a href="#">Bow Ties &amp; Cummerbunds</a> </li>
-            <li><a href="#">Collar Stays</a> </li>
-        </ul>
+        <div class="cl" style="height:8px;"></div>        
     </div>
     <div class="wstmegamenucolr clearfix"><a href="#"><img src="./Megamenu_files/man-ad-img.jpg" alt=""></a></div>
 </div>

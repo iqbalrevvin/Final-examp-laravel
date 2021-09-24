@@ -76,12 +76,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product1.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -101,12 +101,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -126,12 +126,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product3.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -152,12 +152,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product4.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -177,12 +177,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product1.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -202,12 +202,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product4.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -227,12 +227,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>
@@ -252,12 +252,12 @@
                 <div class="col-md-3">
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="product_single.html">
+                            <a href="{{ ('product_single') }}">
                                 <img src="{{ asset('templateordering/images/product-slide/product3.png') }}" class="img img-responsive"/>
                             </a> 
 
                             <div class="product-price">
-                                <a href="product_single.html">DSLR Camera</a><br />
+                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                 <span class="prev-price">
                                     <del>200$</del>
                                 </span>

@@ -216,19 +216,19 @@
                 </div>
                 <div class="all-products">
                     <div class="">
-                        <h2 class="title-div wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">Our Latest Products available</h2>
+                        
                         <div class="products">
                             <div class="row">
 
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product1.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -237,7 +237,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -250,12 +250,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -264,7 +264,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -275,12 +275,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -289,7 +289,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -300,12 +300,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -314,7 +314,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -325,12 +325,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -339,7 +339,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -350,12 +350,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -364,7 +364,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -375,12 +375,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -389,7 +389,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -400,12 +400,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -414,7 +414,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -425,12 +425,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -439,7 +439,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -450,12 +450,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -464,7 +464,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -478,12 +478,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product3.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -492,7 +492,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -504,12 +504,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product4.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -518,7 +518,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -529,12 +529,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product1.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -543,7 +543,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -554,12 +554,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product4.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -568,7 +568,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -579,12 +579,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product2.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -593,7 +593,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
@@ -604,12 +604,12 @@
                                 <div class="col-md-3">
                                     <div class="product-item">
                                         <div class="product-borde-inner">
-                                            <a href="product_single.html">
+                                            <a href="{{ ('product_single') }}">
                                                 <img src="{{ asset('templateordering/images/product-slide/product3.png') }}" class="img img-responsive"/>
                                             </a> 
 
                                             <div class="product-price">
-                                                <a href="product_single.html">DSLR Camera</a><br />
+                                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
                                                 <span class="prev-price">
                                                     <del>200$</del>
                                                 </span>
@@ -618,7 +618,7 @@
                                                 </span>
                                             </div>
 
-                                            <a href="cart.html"  class="btn btn-cart text-center add-to-cart pull-right">
+                                            <a href="{{ ('cart') }}"  class="btn btn-cart text-center add-to-cart pull-right">
                                                 <i class="fa fa-cart-plus"></i>
                                                 Add to cart
                                             </a>
