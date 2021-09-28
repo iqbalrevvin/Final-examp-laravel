@@ -29,3 +29,5 @@ Route::post('/CreateAkun',[AdminController::class,'CreateAkun']);
 Route::get('/listadminApi',[OwnerController::class, 'listadminApi'])->name('listadminApi');
 Route::get('/pemasukanApi',[PemasukanController::class,'pemasukanApi'])->name('pemasukanApi');
 Route::get('/Orderlist',[OrderlistController::class,'indexApi'])->name('Orderlist');
+
+Route::get('/show_products',[ProductsControler::class,'show'])->name('show_products');

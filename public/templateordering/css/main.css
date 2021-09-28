@@ -73,7 +73,7 @@
         opacity: .8;
         border: 0px;
         text-align: center;
-        background: #f94b40;
+        background: #3284f0;
         border-radius: 0px;
         -webkit-transition: all 0.5s ease;
         transition: all .5s ease-in-out;
@@ -142,7 +142,7 @@
 
 
     .top-header{
-        background: #464646;
+        background: #c2c6ca;
         padding: 2px;
         padding-top: 5px;
     }
@@ -266,7 +266,7 @@
         margin-top: 5em;
     }
     .cart-link {
-        background: #0280e1;
+        background: #27a4df;
         border: none;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -280,7 +280,7 @@
         padding: 1.5em;
     }
     .cart-link:hover {
-        background: #ff0000;
+        background: #3f0e0e;
     }
     .cart-link .fa{
         font-size: 2em;
@@ -293,7 +293,7 @@
         font-weight: bold;
         border-radius: 80% 80% 132% 14%;
         border: 1px solid gray;
-        background: red;
+        background: rgb(238, 183, 2);
         opacity: .8;
         padding: 10px;
     }
@@ -323,7 +323,7 @@
 
  .wsmenucontainer.clearfix {
     border-bottom: 1px solid #eaeaea;
-    background: url(../images/navbar.png)#08bce4 no-repeat;
+    background: url(../images/navbar.png)#19c9da no-repeat;
     background-size: cover;
     color: #fff;
     max-height: 70px;
@@ -450,7 +450,7 @@
 
 /**** Start Featured Posts ***/
 h2.title-div {
-    color: #0280e1;
+    color: #746e24;
     text-align: left;
     font-size: 2em;
     font-weight: bold;

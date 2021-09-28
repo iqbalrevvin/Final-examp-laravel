@@ -7,6 +7,11 @@ use App\Models\products;
 
 class ProductsControler extends Controller
 {
+    public function barang(){
+        $products = products::all();
+        return view('ordering/barang',compact('products'));
+        
+    }
      public function createproducts(Request $request){
         
         $products = new products();
@@ -24,4 +29,11 @@ class ProductsControler extends Controller
         ]);
 
     }
+    public function show()
+    {
+        $products = products::all();
+        return response()->json( $products,200);
+    }
+    
+
 }

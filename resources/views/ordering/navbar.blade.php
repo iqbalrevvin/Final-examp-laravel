@@ -6,8 +6,8 @@
             <div class="header-bottom">
                 <div class="container">
                     <div class="header-logo pull-left">
-                        <a href="{{ ('order') }}">
-                            <img src="{{ asset('templateordering/images/logo.png') }}" alt="Your Shop Logo" class="img img-responsive">
+                        <a href="{{ ('order') }}"> 
+                            <img src="{{ url('images/pngwing.com.png') }}" alt="Your Shop Logo" class="img img-responsive" width="60%">
                         </a>
                     </div>
     

@@ -9,6 +9,8 @@ use App\Http\Controllers\PemasukanController;
 use App\Http\Controllers\PengeluaranController;
 use App\Http\Controllers\Form_PengeluaranController;
 use App\Http\Controllers\OrderlistController;
+use App\Http\Controllers\ProductsControler;
+use App\Http\Controllers\OrderingController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -41,10 +43,17 @@ Route::get('/checkout', function () {
 Route::get('/product_single', function () {
     return view('ordering.product_single');
 });
-Route::get('/awal', function () {
-    return view('ordering.barang');
-});
+// Route::get('/awal', function () {
+//     return view('ordering.barang');
+// });
 
+//Ordering
+Route::get('/ordering',[OrderingController::class, 'ordering'])->name('ordering');
+Route::get('/barang',[ProductsControler::class, 'barang'])->name('barang');
+Route::get('/show_products',[ProductsControler::class,'show'])->name('show_products');
+
+
+//Reporting
 
 Route::get('/',[AuthController::class, 'login'])->name('login');
 Route::post('/proses_login',[AuthController::class, 'proses_login'])->name('proses_login');
@@ -61,6 +70,7 @@ Route::post('/Create_Pengeluaran',[Form_PengeluaranController::class,'create'])-
 Route::get('/Orderlist',[OrderlistController::class,'index'])->name('Orderlist');
 Route::get('/chart',[PemasukanController::class,'chart'])->name('chart');
 Route::get('/chartpengeluaran',[PengeluaranController::class,'chartpengeluaran'])->name('chartpengeluaran');
+
 
 
 

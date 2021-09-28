@@ -5,7 +5,7 @@
                 <div class="footer-top-address wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10">
                     <div class="header-logo" style=" text-align: center;border-bottom: 1px dotted rgba(247, 12, 38, 0.24);">
                         <a href="#">
-                            <img src="{{ asset('templateordering/images/logo.png') }}" alt="Your Shop Logo" class="img img-responsive">
+                            <img src="{{url('images/pngwing.com.png')}}" alt="" class="img img-responsive" width="30%">
                         </a>
                     </div>
                     <div class="clearfix"></div>

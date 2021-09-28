@@ -8,20 +8,20 @@
     <div class="container">
         <div class="products">
             <div class="row">
+                
                 <div class="col-md-3">
+                    @foreach ($products as $item)
                     <div class="product-item">
                         <div class="product-borde-inner">
-                            <a href="{{ ('product_single') }}">
-                                <img src="{{ asset('templateordering/images/product-slide/product1.png') }}" class="img img-responsive"/>
+                           
+                            <a href="{{ ('product_single') }}" {{ $loop->iteration }}>
+                                <img src="{{url('images')}}/{{$item->image}}" class="img img-responsive"/>
                             </a> 
-
                             <div class="product-price">
-                                <a href="{{ ('product_single') }}">DSLR Camera</a><br />
-                                <span class="prev-price">
-                                    <del>200$</del>
-                                </span>
+                                <a href="{{ ('product_single') }}">{{$item->name}}</a><br />
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <span class="current-price">
-                                    150$
+                                   Rp. {{$item->price}}
                                 </span>
                             </div>
 
@@ -29,10 +29,15 @@
                                 <i class="fa fa-cart-plus"></i>
                                 Simpan
                             </a>
+                           
                             <div class="clearfix"></div>
+                          
+                           
                         </div>
                     </div> 
+                    @endforeach
                 </div><!-- End Latest products[single] -->  
+               
             <div class="clearfix"></div>
         </div> <!-- End Latest products row-->
             <a href="{{ ('products') }}" class="btn btn-blue btn-lg pull-right btn-more wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" data-wow-offset="10"> 
