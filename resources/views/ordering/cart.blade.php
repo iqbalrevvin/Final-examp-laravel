@@ -3,6 +3,26 @@
 <div class="content-area">
     <div class="container">
         <div class="cart-page">
+            @foreach($carts as $item)
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th width="50%">Item</th>
+                            <th width="10%">Jumlah</th>
+                            <th width="20%">Harga Satuan</th>
+                            <th width="20%">Total Harga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ $item->product->name }}</td>
+                            <td>{{ $item->jumlah }}</td>
+                            <td>{{ $item->product->price }}</td>
+                            <td>{{ $item->Jumlah_harga }}</td>
+                        </tr>
+                    </tbody>
+            @endforeach
+
             <h2>Keranjang</h2>
             <form action="checkout.html">
                 <table class="table">

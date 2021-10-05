@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\OwnerController;
 use App\Http\Controllers\PemasukanController;
 use App\Http\Controllers\PengeluaranController;
@@ -51,6 +52,8 @@ Route::get('/product_single', function () {
 Route::get('/ordering',[OrderingController::class, 'ordering'])->name('ordering');
 Route::get('/barang',[ProductsControler::class, 'barang'])->name('barang');
 Route::get('/show_products',[ProductsControler::class,'show'])->name('show_products');
+Route::get('/add-cart/{id}/{qty}', [CartController::class, 'AddCart'])->name('add_cart');
+Route::get('/list-cart', [CartController::class, 'ListCart'])->name('list_cart');
 
 
 //Reporting
