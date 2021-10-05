@@ -7,7 +7,7 @@
             <form action="checkout.html">
                 <table class="table">
                     <thead>
-                        <tr>
+                        <tr>live
                             <th width="50%">Item</th>
                             <th width="10%">Jumlah</th>
                             <th width="20%">Harga Satuan</th>
@@ -76,15 +76,16 @@
                     </table>
                 </form>
             </div> <!--End Cart page-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script type="text/javascript">
                 $(document).ready(function(){
-
+                
                     var product_price_p1 = 200;
                     var product_price_p2 = 300;
                     var total_product_sum = 0;
 
                     $('.product_quantity_p1, .product_quantity_p2').bind('keyup mouseup change click keydown focus', (function(){
-
+                        
                         var quantity_p1 = $('.product_quantity_p1').val();
                         var quantity_p2 = $('.product_quantity_p2').val();
 

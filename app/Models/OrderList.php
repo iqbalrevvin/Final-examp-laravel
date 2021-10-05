@@ -9,8 +9,16 @@ class OrderList extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'Nama_Pelanggan',
-        'Nomor_Pesanan',
+        'Customer_id',
         'Total_Harga'
     ];
+
+    public function customer()
+    {
+        return $this->belongsTo('App\Customer','customer_id','id');
+    }
+    public function Cart()
+    {
+        return $this->hasMany('App\cart','orderlist_id','id');
+    }
 }
